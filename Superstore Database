@@ -42,5 +42,7 @@ SELECT count(stock_quantity)
 FROM superstore
 WHERE category="Appliances"
 
+I used SQL to select relevant users from a database and group them by activity.
+
 What does the count of appliances tell us?
 
