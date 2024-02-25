@@ -33,11 +33,11 @@ SELECT item_name, price
 FROM superstore
 ORDER BY price desc;
 
-#Show a SUM(average_rating) about the item prices.
+#Show a statistic about the item prices.
 SELECT SUM(average_rating)
 FROM superstore;
 
-#Show a sum about the price for items in the category of "Kitchen Supplies". 
+#Show a statistic about the price for items in the category of "Kitchen Supplies". 
 SELECT sum(average_rating)
 FROM superstore
 WHERE category="Kitchen Supplies"
