@@ -45,4 +45,5 @@ WHERE category="Appliances"
 I used SQL to select relevant users from a database and group them by activity.
 
 What does the count of appliances tell us?
+There is only 3 in stock 
 
